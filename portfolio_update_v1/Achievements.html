@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-<head>
+<head>                                        <!--CSS file copied from index.html some code related to original main may be redundant.-->
   <meta charset="utf-8">
   <title>Roald Jurrian Kamman's profile</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +8,14 @@
   <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
   <body>
 
-    <div class="main-nav">
+    <nav class="main-nav">
         <ul class="nav">
           <li class="name">Roald Jurrian Kamman</li>
           <li><a href="index.html">Home</a></li>
           <li><a href="Experience.html">Experience</a></li>
           <li><a href="#">Achievements</a></li>
         </ul>
-    </div>
+    </nav>
 
     <header>
         <img src="images/training.jpeg" alt="Roald Jurrian Kamman performing a deadlift" class="profile-image">
@@ -23,23 +23,54 @@
         
     </header>
 
-  <main> 
+  <main class="flex"> 
    
 
-     <section>
-      <p>This is placeholder content for my first project. 
-      About my Achievements. </p><!--make sure that this place has the format of a resume-->
-     </section>
+        <section class="card">
+                <h2 class="hcard">Personal development</h2>
+                <h3 class="hcard">My story 6 years ago:</h3>
+                 <ul>
+                    <li>I was depressed</li>
+                    <li>I had Lymes disease</li>
+                    <li>I was wrongly diagnosed with autism from an early age</li>
+                    <li>I was told I may never run again by a doctor after breaking my foot</li>
+                    <li>I weighed 150 kilo's with 50% body fat</li>
+                 </ul>
+                <h3 class="hcard">my Achievements years later</h3>
+                  <ul>
+                      <li>I lost over 65 kilos of body fat and gained massive amounts of muscle</li>
+                      <li>I gained a healthy relationship with food</li>
+                      <li>I quit all my bad habits including my gaming addiction</li>
+                      <li>I learned social skills after being seperated from society</li>
+                      <li>I successfully went through military training after being told I may never run again</li>
+                      <li>I discovered psychology and sociology</li>
+                      <li>I delved into the realms of personal development</li>
+                  </ul>
+                <img src="images/beforeandafter.jpg" alt="before and after losing weight" class="profile-image">
+        </section> 
+
+        <section class="card">
+                <h2 class="hcard">My Book</h2>
+                <p>After my journey in personal development, I boiled down my strategy and approach to life into a formula that I wanted to share with the world.</p>
+                <p>So after a long time thinking and reiterating my content I finally managed to write and publish my book The 5 Keys to Long Term Success and Fulfillment in life. A Guide to Personal Growth and Development.</p>
+                <P>You can find and purchase my book <a href="https://www.amazon.com/Keys-Long-Term-Success-Fulfillment/dp/1731063369/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1568905509&sr=8-2" class="acard" target="_blank">Here</a></P>
+                <a href="https://www.amazon.com/Keys-Long-Term-Success-Fulfillment/dp/1731063369/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1568905509&sr=8-2" class="acard" target="_blank"><img src="images/book.jpg" alt="Roald looking at watch professional photo" class="profile-image1"></a>
+        </section> 
 
 
   </main> 
-    <footer>
+  <footer>
+
+        <p>If you are interested in employing my skills, Email me at: <a class="acard" href="mailto:r.j.kamman@gmail.com?subject=I am interested in employing your skills" target="_blank">R.J.kamman@gmail.com</a></p>
+
       <ul>
-        <li><a href="#" class="social twitter">Twitter</a></li>
-        <li><a href="#" class="social linkedin">LinkedIn</a></li>
-        <li><a href="#" class="social github">Github</a></li>
-      </ul>
-      <p class="copyright">Copyright 2019, Roald Jurrian Kamman</p>
+        <li><a href="https://www.linkedin.com/in/roaldjurriankamman/" target="_blank" class="social linkedin">LinkedIn</a></li>
+        <li><a href="https://github.com/Roaldkamman" target="_blank" class="social github">Github</a></li>
+      </ul>   <!--I removed Twitter because I don't use it-->
+
+      <small class="copyright">Copyright 2019, Roald Jurrian Kamman</small>
+
+      
     </footer>
   </body>
   </html>

@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-<head>
+<head>                                 <!--CSS file copied from index.html some code related to original main may be redundant.-->
   <meta charset="utf-8">
   <title>Roald Jurrian Kamman's profile</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,37 +8,56 @@
   <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
   <body>
 
-    <div class="main-nav">
+    <nav class="main-nav">
         <ul class="nav">
           <li class="name">Roald Jurrian Kamman</li>
           <li><a href="index.html">Home</a></li>
           <li><a href="#">Experience</a></li>
           <li><a href="Achievements.html">Achievements</a></li>
         </ul>
-    </div>
+    </nav>
 
     <header>
-      <img src="images/me.jpg" alt="Roald Jurrian Kamman's professional profile picture" class="profile-image">
-      <h1 class="tag name">Hello, I’m Roald Jurrian.</h1>
-      <p class="tag location">I'm originally from Nijmegen, Netherlands.</p>
+      <h1 class="tag name">Experience</h1>
     </header>
 
-  <main> 
+ <main class="flex"> 
 
-     <section>
-      <p>This is placeholder content for my first project. 
-      About my experience. </p><!--make sure that this place has the format of a resume-->
-     </section>
+    <section class="card">
+        <h2 class="hcard">Sales</h2>
+        <p>I have worked in sales for different companies and as a contractor. I have put personal time and effort into understanding the psychology and inner workings of sales.</p>
+        <p>I believe that knowledge in sales and the psychology behind it can be leveraged in any business domain and I love finding new ways and places to apply my skills.</p>
+        <img src="images/mewatch.jpg" alt="Roald looking at watch professional photo" class="profile-image">
+    </section> 
+
+    <section class="card">
+          <h2 class="hcard">Marketing</h2>
+          <p>During my sales journey, I also picked up critical marketing skills in email marketing, facebook advertisement and general marketing strategy. </p>
+          <img src="images/mesit.jpg" alt="Roald sitting professional photo" class="profile-image">
+          <p>I have learned how important it is to know what the market wants and how to find out exactly what it is the market wants and look forward to finding a way to merge this skill into my development projects.</p>
+    </section> 
+
+    <section class="card">
+        <h2 class="hcard">Customer Service</h2>
+        <p>My first job was in Security and I learned that Security is really just another way to say Customer Service. </p>
+        <p>Just as with Security Customer Service's job is to represent the image of the company, prevent conflicts, be patient and treat people well. Making sure that everyone feels good.</p>
+        <img src="images/mesmile.jpg" alt="Roald smiling professional photo" class="profile-image">
+    </section> 
 
 
   </main> 
-    <footer>
-      <ul>
-        <li><a href="#" class="social twitter">Twitter</a></li>
-        <li><a href="#" class="social linkedin">LinkedIn</a></li>
-        <li><a href="#" class="social github">Github</a></li>
-      </ul>
-      <p class="copyright">Copyright 2019, Roald Jurrian Kamman</p>
-    </footer>
+  <footer>
+
+      <p>If you are interested in employing my skills, Email me at: <a class="acard" href="mailto:r.j.kamman@gmail.com?subject=I am interested in employing your skills">R.J.kamman@gmail.com</a></p>
+
+    <ul>
+      <li><a href="https://www.linkedin.com/in/roaldjurriankamman/" target="_blank" class="social linkedin">LinkedIn</a></li>
+      <li><a href="https://github.com/Roaldkamman" target="_blank" class="social github">Github</a></li>
+    </ul>   <!--I removed Twitter because I don't use it-->
+
+    <small class="copyright">Copyright 2019, Roald Jurrian Kamman</small>
+
+    
+  </footer>
   </body>
   </html>
