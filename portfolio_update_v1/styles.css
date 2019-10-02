@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #53535267;
+  background: #B6B6B6;
 }
 /* Link Styles */
 
@@ -57,10 +57,16 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/tech.jpg') no-repeat top center ;
+  background: linear-gradient(#000033, transparent 90%),
+   linear-gradient(0deg, #B6B6B6, transparent),
+   #000033 url('images/tech.jpg') no-repeat center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
+
+  /* background: linear-gradient(#000033, transparent 90%),
+   linear-gradient(0deg, ##B6B6B6, transparent),
+   #000033 url('images/tech.jpg') no-repeat center; */
 }
 header {
   line-height: 1.5;
@@ -70,16 +76,19 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid #000033;
+  border: 3px solid rgba(0, 0, 51, 0.7);
   transition: all .5s;
+  box-shadow: -5px 15px 10px 0 rgba(0, 0, 51, 0.7);
 }
 header .profile-image:hover {
-  transform: scale(1.5) rotate(13deg);
+  transform: scale(1.2);
 }
 
 .head1 {
   text-align: center;
-  background: url('images/mephone.jpg') no-repeat top center ;
+  background: linear-gradient(#000033, transparent 90%),
+   linear-gradient(0deg, #B6B6B6, transparent),
+   #000033 url('images/mephone.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 340px;
@@ -90,7 +99,9 @@ header .profile-image:hover {
 
 .head2 {
   text-align: center;
-  background: url('images/mountain.jpg') no-repeat top center ;
+  background: linear-gradient(#000033, transparent 90%),
+   linear-gradient(0deg, #B6B6B6, transparent),
+   #000033 url('images/mountain.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -111,7 +122,7 @@ header .profile-image:hover {
 }
 
 .tag {
-  background-color: #efefef;
+  background-color: rgba(255, 255, 255, 0.5);
   color: #000033;
   padding: 10px;
   border-radius: 20px;
@@ -119,7 +130,7 @@ header .profile-image:hover {
   margin: 10px auto;
 } 
 .location {
-  background-color: #000033;
+  background-color: rgba(0, 0, 51, 0.7);
   color: white;
 }
 .card {
@@ -130,16 +141,18 @@ header .profile-image:hover {
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
-  border-radius: 20px;
+  border-radius: 15px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #4c06f0;
+  transform: scale(1.03);
+  box-shadow: 5px 8px 10px #222;
 }
 
 .acard{
   color: #4c06f0;
 }
+
 
 .hcard{
   text-align: center;
@@ -161,6 +174,7 @@ ul.skills {
 
 .skills li:hover {
   transform: scale(1.2) rotate(5deg);
+  box-shadow: 5px 8px 10px #222;
 }
 
 .skills li:nth-child(odd) {
