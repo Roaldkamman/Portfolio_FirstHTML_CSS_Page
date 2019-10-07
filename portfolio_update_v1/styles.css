@@ -208,11 +208,13 @@ section .section-image3 {
   border-radius: 0%;
   border: 0px solid #000033;
   transition: all .5s;
+  display: block;
 }
 
 
 section .section-image3:hover {
  transform: scale(1.2) rotate(5deg);
+ box-shadow: -5px 15px 10px 0 rgba(0, 0, 51, 0.7);
 }
 
 footer {
